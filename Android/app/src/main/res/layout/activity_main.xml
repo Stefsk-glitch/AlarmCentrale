@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/Theme.AppCompat"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnAlarm"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
+        android:background="@color/black"
+        android:backgroundTint="@null"
+        android:insetLeft="-8dp"
+        android:insetTop="25dp"
+        android:insetBottom="25dp"
+        android:onClick="btnOnAlarm"
+        android:text="Alarm"
+        app:icon="@android:drawable/ic_lock_idle_alarm"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/btnInfo"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginBottom="15dp"
+        android:background="@color/black"
+        android:backgroundTint="@null"
+        android:insetLeft="-8dp"
+        android:insetTop="25dp"
+        android:insetBottom="25dp"
+        android:onClick="btnOnInfo"
+        android:text="Alarm"
+        app:icon="@android:drawable/ic_dialog_info"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imgDoor1"
+        android:layout_width="111dp"
+        android:layout_height="131dp"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="290dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/door" />
+
+    <ImageView
+        android:id="@+id/imgDoor2"
+        android:layout_width="111dp"
+        android:layout_height="131dp"
+        android:layout_marginTop="290dp"
+        android:layout_marginEnd="65dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/door" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="115dp"
+        android:layout_marginTop="260dp"
+        android:text="1"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="260dp"
+        android:layout_marginEnd="117dp"
+        android:text="2"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageViewAlarm"
+        android:layout_width="149dp"
+        android:layout_height="117dp"
+        android:layout_marginStart="123dp"
+        android:layout_marginTop="84dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_lock_idle_alarm" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

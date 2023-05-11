@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="alarmDefused">Alarm is uitgeschakelt</string>
+    <string name="door1Door2">Deur 1 en 2 zijn open</string>
+    <string name="door1">Deur 1 is open</string>
+    <string name="door1Closed">Deur 1 is gesloten</string>
+    <string name="door2">Deur 2 is open</string>
+    <string name="door2Closed">Deur 2 is gesloten</string>
+    <string name="alarm">Alarm gaat af</string>
+</resources>

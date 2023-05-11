@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name" translatable="false">Alarm</string>
+    <string name="alarmDefused">Alarm Defused</string>
+    <string name="door1Door2">Door 1 and 2 are open</string>
+    <string name="door1">Door 1 is open</string>
+    <string name="door1Closed">Door 1 has been closed</string>
+    <string name="door2">Door 2 is open</string>
+    <string name="door2Closed">Door 2 has been closed</string>
+    <string name="alarm">Alarm on</string>
+</resources>
